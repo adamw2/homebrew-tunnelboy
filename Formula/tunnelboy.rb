@@ -7,10 +7,10 @@ class Tunnelboy < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/adamw2/tunnelboy/releases/download/v0.2.0/tunnelboy_darwin_arm64.tar.gz"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      sha256 "53dbc6799705f7cb48d39bde81a6893d2a2bbc6b871aca4114c2ffca82172abe"
     else
       url "https://github.com/adamw2/tunnelboy/releases/download/v0.2.0/tunnelboy_darwin_amd64.tar.gz"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      sha256 "497141d1001ce0d7479518acd846fd81402e9445c0250c64f81dcd187967bd7b"
     end
   end
 
