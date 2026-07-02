@@ -1,16 +1,16 @@
 class Tunnelboy < Formula
   desc "AWS VPC tunneling CLI with Pip-Boy theming"
   homepage "https://github.com/adamw2/tunnelboy"
-  version "0.3.0"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/adamw2/tunnelboy/releases/download/v0.3.0/tunnelboy_darwin_arm64.tar.gz"
-      sha256 "83bece12af2ad5612b33bbc151018431fc9c3322b67d9c8f0d88857298f69072"
+      url "https://github.com/adamw2/tunnelboy/releases/download/v0.4.0/tunnelboy_darwin_arm64.tar.gz"
+      sha256 "7e8e9733c7dc5da43af04786c6ace47024e2b7665170440c9fdc673f00286c5d"
     else
-      url "https://github.com/adamw2/tunnelboy/releases/download/v0.3.0/tunnelboy_darwin_amd64.tar.gz"
-      sha256 "b17977c4b7a0d307a6f511e30fa42f1d6caec99e85e5e4edc7e6b98a7aeb7a0a"
+      url "https://github.com/adamw2/tunnelboy/releases/download/v0.4.0/tunnelboy_darwin_amd64.tar.gz"
+      sha256 "79c192dba41500064d14766d4d9cc6c313fe4fdaf1803d7b37a015ae75815640"
     end
   end
 
